@@ -1,13 +1,5 @@
 Full Name: N.Rakesh
-Email: rakes@example.com
-Phone: +91-9876543210
-GitHub Profile: https://github.com/yourprofile
+Email: nraki522@gmail.com
+Phone: +91-6303477406
+GitHub Profile: https://github.com/Rakesh73971
 Most Challenging Part: Implementing the dual-token flow for Monitoring Officer role with proper JWT scoping and validation.
-
-
-
-
-
-{
-  "token": "FBj-5LeCCAr_4PIj-VkArw"
-}

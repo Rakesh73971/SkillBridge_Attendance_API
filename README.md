@@ -4,10 +4,11 @@ FastAPI backend for the SkillBridge attendance management assignment.
 
 ## Live API
 
-- Base URL: `ADD_YOUR_LIVE_BASE_URL_HERE`
+- Base URL: `https://skillbridge-attendance-api-7lsi.onrender.com`
 - Deployment notes:
-  - Public deployment is still pending
-  - Recommended deployment for this project: Render/Railway/Fly.io with PostgreSQL
+  - API is deployed on Render
+  - PostgreSQL is hosted on Neon
+  - The application startup creates tables automatically when the database connection is available
   - Environment variables should be configured through the hosting platform, not committed to the repo
 
 ## Local Setup
@@ -82,7 +83,7 @@ Note: the test configuration uses a real PostgreSQL test database, not SQLite.
 Replace `BASE_URL` with either:
 
 - `http://127.0.0.1:8000` for local testing
-- your deployed live URL later
+- `https://skillbridge-attendance-api-7lsi.onrender.com` for the live deployment
 
 ### 1. Create institution
 
@@ -233,8 +234,8 @@ curl -X GET "BASE_URL/monitoring/attendance" \
 
 ## What Is Partially Done
 
-- README deployment section is prepared, but the live base URL still needs to be added
 - Local test execution depends on PostgreSQL being installed and configured correctly on the machine
+- Render deployment is live, but the submission can still be improved with more production hardening
 
 ## What I Skipped
 
