@@ -34,18 +34,7 @@ wheels/
 htmlcov/
 test.db
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
 
 # Logs
 logs/
